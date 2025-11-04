@@ -1,0 +1,19 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "honox-examples-blog",
+  "main": "./dist/index.js",
+  "compatibility_date": "2024-04-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": "./dist"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "stadli-db",
+      "database_id": "741d5a6d-80db-4e87-80d9-2e5584de4add"
+    }
+  ]
+}

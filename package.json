@@ -1,0 +1,17 @@
+{
+  "name": "honox-examples-blog",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --mode client && vite build",
+    "preview": "wrangler dev",
+    "deploy": "$npm_execpath run build && wrangler deploy"
+  },
+  "private": true,
+  "dependencies": {
+    "@hono/zod-validator": "^0.1.11",
+    "@markdoc/markdoc": "^0.4.0",
+    "dayjs": "^1.11.10",
+    "zod": "^3.22.4"
+  }
+}
